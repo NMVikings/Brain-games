@@ -1,6 +1,6 @@
 {
   "name": "nmvikings_brain-games",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Hexlet project №1",
   "bin": {
     "brain-games": "dist/bin/brain-games.js"
