@@ -1,10 +1,17 @@
 {
-  "name": "project-lvl1-s328",
+  "name": "nmvikings_brain-games",
   "version": "1.0.0",
   "description": "Hexlet project №1",
-  "main": "index.js",
+  "bin": {
+    "brain-games": "dist/bin/brain-games.js"
+  },
+  "files": [
+    "dist"
+  ],
   "scripts": {
-    "babel-node": "babel-node"
+    "babel-node": "babel-node",
+    "build": "NODE_ENV=production babel src --out-dir dist --source-maps inline",
+    "prepublishOnly": "npm run build"
   },
   "repository": {
     "type": "git",
