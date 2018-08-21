@@ -1,4 +1,4 @@
 # Brain Games
 
-[![Maintainability](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability)](https://codeclimate.com/github/codeclimate/codeclimate/maintainability)
+[[![Maintainability](https://api.codeclimate.com/v1/badges/72df556358572351ac77/maintainability)](https://codeclimate.com/github/NMVikings/project-lvl1-s328/maintainability)
 [![Build Status](https://travis-ci.org/NMVikings/project-lvl1-s328.svg?branch=master)](https://travis-ci.org/NMVikings/project-lvl1-s328)

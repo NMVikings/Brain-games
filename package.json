@@ -2,6 +2,12 @@
   "name": "nmvikings_brain-games",
   "version": "2.0.1",
   "description": "Brain Games",
+  "keywords": [
+    "hexlet",
+    "game",
+    "brain",
+    "intelligence"
+  ],
   "bin": {
     "brain-games": "dist/bin/brain-games.js"
   },
