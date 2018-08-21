@@ -1,4 +1,9 @@
 # Brain Games
 
-[[![Maintainability](https://api.codeclimate.com/v1/badges/72df556358572351ac77/maintainability)](https://codeclimate.com/github/NMVikings/project-lvl1-s328/maintainability)
+[![Maintainability](https://api.codeclimate.com/v1/badges/72df556358572351ac77/maintainability)](https://codeclimate.com/github/NMVikings/project-lvl1-s328/maintainability)
 [![Build Status](https://travis-ci.org/NMVikings/project-lvl1-s328.svg?branch=master)](https://travis-ci.org/NMVikings/project-lvl1-s328)
+
+
+## Brain-even asciinema:
+
+[![asciicast](https://asciinema.org/a/fZ2P9GiJutdvw1mmzYpAiQNav.png)](https://asciinema.org/a/fZ2P9GiJutdvw1mmzYpAiQNav)
