@@ -1,15 +1,21 @@
-import createGame from '../game-core';
-
-const getRandomNumber = () => Math.floor(Math.random() * 100);
+import { createGame, getRandomNumber } from '../utils';
 
 const isEven = number => number % 2 === 0;
 
-const data = {
-  rules: 'Answer "yes" if number even otherwise answer "no".',
-  getQuestion: getRandomNumber,
-  getRightAnswer: question => isEven(question) ? 'yes' : 'no',
+const getQuestionAndAnswer = () => {
+  const question = getRandomNumber();
+
+  return {
+    question,
+    rightAnswer: isEven(question) ? 'yes' : 'no'
+  };
 };
 
-const playBrainEvenGame = createGame(data);
+const gameRules = {
+  rules: 'Answer "yes" if number even otherwise answer "no".',
+  getQuestionAndAnswer
+};
+
+const playBrainEvenGame = createGame(gameRules);
 
 export default playBrainEvenGame;

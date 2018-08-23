@@ -1,17 +1,8 @@
-import createGame from '../game-core';
-
-const getRandomNumber = (interval = 100) => Math.floor(Math.random() * interval);
+import { createGame, getRandomNumber } from '../utils';
 
 const getArithmeticAction = () => ['*', '+', '-'][getRandomNumber(3)];
 
-const getExpression = () => `${getRandomNumber()} ${getArithmeticAction()} ${getRandomNumber()}`;
-
-const calculateExpression = (expression) => {
-  const [firstPartOfExpression, arithmeticAction, secondPartOfExpression] = expression.split(' ');
-
-  const firstNumber = Number(firstPartOfExpression);
-  const secondNumber = Number(secondPartOfExpression);
-
+const calculateExpression = (firstNumber, secondNumber, arithmeticAction) => {
   switch (arithmeticAction) {
     case '*':
       return firstNumber * secondNumber;
@@ -23,12 +14,22 @@ const calculateExpression = (expression) => {
   }
 };
 
-const data = {
-  rules: 'What is the result of the expression?',
-  getQuestion: getExpression,
-  getRightAnswer: expression => String(calculateExpression(expression)),
+const getQuestionAndAnswer = () => {
+  const firstNumber = getRandomNumber();
+  const secondNumber = getRandomNumber();
+  const arithmeticAction = getArithmeticAction();
+
+  return {
+    answer: `${firstNumber()} ${arithmeticAction()} ${secondNumber()}`,
+    rightAnswer: calculateExpression(firstNumber, secondNumber, arithmeticAction)
+  };
 };
 
-const playBrainEvenGame = createGame(data);
+const gameRules = {
+  rules: 'What is the result of the expression?',
+  getQuestionAndAnswer
+};
+
+const playBrainEvenGame = createGame(gameRules);
 
 export default playBrainEvenGame;
