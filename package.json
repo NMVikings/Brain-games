@@ -1,6 +1,6 @@
 {
   "name": "nmvikings_brain-games",
-  "version": "3.0.3",
+  "version": "4.0.0",
   "description": "Brain Games",
   "keywords": [
     "hexlet",
@@ -10,7 +10,8 @@
   ],
   "bin": {
     "brain-games": "dist/bin/brain-games.js",
-    "brain-even": "dist/bin/brain-even.js"
+    "brain-even": "dist/bin/brain-even.js",
+    "brain-calc": "dist/bin/brain-calc.js"
   },
   "files": [
     "dist"
