@@ -18,7 +18,7 @@ const balanceNumber = (number) => {
 };
 
 const getQuestionAndAnswer = () => {
-  const question = getRandomNumber(10000);
+  const question = getRandomNumber(1, 10000);
   const rightAnswer = balanceNumber(question);
 
   return {

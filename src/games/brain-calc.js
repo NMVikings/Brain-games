@@ -1,7 +1,7 @@
 import playGame from '../game-core';
 import getRandomNumber from '../utils';
 
-const getArithmeticAction = () => ['*', '+', '-'][getRandomNumber(3)];
+const getArithmeticAction = () => ['*', '+', '-'][getRandomNumber(0, 3)];
 
 const calculateExpression = (firstNumber, secondNumber, arithmeticAction) => {
   switch (arithmeticAction) {
@@ -16,8 +16,8 @@ const calculateExpression = (firstNumber, secondNumber, arithmeticAction) => {
 };
 
 const getQuestionAndAnswer = () => {
-  const firstNumber = getRandomNumber();
-  const secondNumber = getRandomNumber();
+  const firstNumber = getRandomNumber(0, 100);
+  const secondNumber = getRandomNumber(0, 100);
   const arithmeticAction = getArithmeticAction();
 
   return {
