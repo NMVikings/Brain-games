@@ -14,6 +14,4 @@ const getQuestionAndAnswer = () => {
 
 const rules = 'Answer "yes" if number even otherwise answer "no".';
 
-const playBrainEvenGame = () => playGame(rules, getQuestionAndAnswer);
-
-export default playBrainEvenGame;
+export default () => playGame(rules, getQuestionAndAnswer);

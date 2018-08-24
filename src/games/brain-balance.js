@@ -27,6 +27,4 @@ const getQuestionAndAnswer = () => {
   };
 };
 
-const playBrainGcdGame = () => playGame(rules, getQuestionAndAnswer);
-
-export default playBrainGcdGame;
+export default () => playGame(rules, getQuestionAndAnswer);

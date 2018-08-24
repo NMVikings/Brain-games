@@ -27,6 +27,4 @@ const getQuestionAndAnswer = () => {
 
 const rules = 'Find the greatest common divisor of given numbers.';
 
-const playBrainGcdGame = () => playGame(rules, getQuestionAndAnswer);
-
-export default playBrainGcdGame;
+export default () => playGame(rules, getQuestionAndAnswer);
