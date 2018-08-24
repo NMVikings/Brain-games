@@ -15,3 +15,7 @@
 ## Brain-gcd asciinema:
 
 [![asciicast](https://asciinema.org/a/Phwgz29CQd3BsOHfsUxwcwHCC.png)](https://asciinema.org/a/Phwgz29CQd3BsOHfsUxwcwHCC)
+
+## Brain-balance asciinema:
+
+[![asciicast](https://asciinema.org/a/J5ftUoCuI3K3Wg8BKXmnDaelx.png)](https://asciinema.org/a/J5ftUoCuI3K3Wg8BKXmnDaelx)
