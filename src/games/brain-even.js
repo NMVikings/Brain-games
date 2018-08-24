@@ -1,4 +1,5 @@
-import { createGame, getRandomNumber } from '../utils';
+import playGame from '../game-core';
+import getRandomNumber from '../utils';
 
 const isEven = number => number % 2 === 0;
 
@@ -11,11 +12,8 @@ const getQuestionAndAnswer = () => {
   };
 };
 
-const gameRules = {
-  rules: 'Answer "yes" if number even otherwise answer "no".',
-  getQuestionAndAnswer
-};
+const rules = 'Answer "yes" if number even otherwise answer "no".';
 
-const playBrainEvenGame = createGame(gameRules);
+const playBrainEvenGame = () => playGame(rules, getQuestionAndAnswer);
 
 export default playBrainEvenGame;

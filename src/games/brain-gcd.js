@@ -1,4 +1,5 @@
-import { createGame, getRandomNumber } from '../utils';
+import playGame from '../game-core';
+import getRandomNumber from '../utils';
 
 const calculateGCD = (a, b) => {
   if (a % b === 0) {
@@ -24,11 +25,8 @@ const getQuestionAndAnswer = () => {
   };
 };
 
-const gameRules = {
-  rules: 'Find the greatest common divisor of given numbers.',
-  getQuestionAndAnswer,
-};
+const rules = 'Find the greatest common divisor of given numbers.';
 
-const playBrainEvenGame = createGame(gameRules);
+const playBrainGcdGame = () => playGame(rules, getQuestionAndAnswer);
 
-export default playBrainEvenGame;
+export default playBrainGcdGame;

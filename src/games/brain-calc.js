@@ -1,4 +1,5 @@
-import { createGame, getRandomNumber } from '../utils';
+import playGame from '../game-core';
+import getRandomNumber from '../utils';
 
 const getArithmeticAction = () => ['*', '+', '-'][getRandomNumber(3)];
 
@@ -20,16 +21,12 @@ const getQuestionAndAnswer = () => {
   const arithmeticAction = getArithmeticAction();
 
   return {
-    answer: `${firstNumber()} ${arithmeticAction()} ${secondNumber()}`,
-    rightAnswer: calculateExpression(firstNumber, secondNumber, arithmeticAction)
+    question: `${firstNumber} ${arithmeticAction} ${secondNumber}`,
+    rightAnswer: String(calculateExpression(firstNumber, secondNumber, arithmeticAction))
   };
 };
 
-const gameRules = {
-  rules: 'What is the result of the expression?',
-  getQuestionAndAnswer
-};
+const rules = 'What is the result of the expression?';
+const playBrainCalcGame = () => playGame(rules, getQuestionAndAnswer);
 
-const playBrainEvenGame = createGame(gameRules);
-
-export default playBrainEvenGame;
+export default playBrainCalcGame;
