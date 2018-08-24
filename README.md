@@ -4,22 +4,22 @@
 [![Build Status](https://travis-ci.org/NMVikings/project-lvl1-s328.svg?branch=master)](https://travis-ci.org/NMVikings/project-lvl1-s328)
 
 
-## Brain-even asciinema:
+## Brain-even
 
-[![asciicast](https://asciinema.org/a/fZ2P9GiJutdvw1mmzYpAiQNav.png)](https://asciinema.org/a/fZ2P9GiJutdvw1mmzYpAiQNav)
+[![asciicast](https://asciinema.org/a/60IZekAapUUtNrZfJ5rPsZ7Gr.png)](https://asciinema.org/a/60IZekAapUUtNrZfJ5rPsZ7Gr)
 
-## Brain-calc asciinema:
+## Brain-calc
 
-[![asciicast](https://asciinema.org/a/qCydsIZh8unl6JvIW63MEjvlE.png)](https://asciinema.org/a/qCydsIZh8unl6JvIW63MEjvlE)
+[![asciicast](https://asciinema.org/a/seJuoBxSH5EWf5ANUHL4VoVM9.png)](https://asciinema.org/a/seJuoBxSH5EWf5ANUHL4VoVM9)
 
-## Brain-gcd asciinema:
+## Brain-gcd
 
-[![asciicast](https://asciinema.org/a/Phwgz29CQd3BsOHfsUxwcwHCC.png)](https://asciinema.org/a/Phwgz29CQd3BsOHfsUxwcwHCC)
+[![asciicast](https://asciinema.org/a/korGanI4jVSrYjcVRsaz9C4n5.png)](https://asciinema.org/a/korGanI4jVSrYjcVRsaz9C4n5)
 
-## Brain-balance asciinema:
+## Brain-balance
 
-[![asciicast](https://asciinema.org/a/J5ftUoCuI3K3Wg8BKXmnDaelx.png)](https://asciinema.org/a/J5ftUoCuI3K3Wg8BKXmnDaelx)
+[![asciicast](https://asciinema.org/a/2NjmJUIM3VfSYEV3itpig4ff6.png)](https://asciinema.org/a/2NjmJUIM3VfSYEV3itpig4ff6)
 
-## Brain-progression asciinema:
+## Brain-progression
 
-[![asciicast](https://asciinema.org/a/9CnVApDLBlveYIIL4fgJ1Vh6a.png)](https://asciinema.org/a/9CnVApDLBlveYIIL4fgJ1Vh6a)
+[![asciicast](https://asciinema.org/a/hwZIMENKEuOVKcDw2si6N0wP1.png)](https://asciinema.org/a/hwZIMENKEuOVKcDw2si6N0wP1)
