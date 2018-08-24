@@ -19,3 +19,7 @@
 ## Brain-balance asciinema:
 
 [![asciicast](https://asciinema.org/a/J5ftUoCuI3K3Wg8BKXmnDaelx.png)](https://asciinema.org/a/J5ftUoCuI3K3Wg8BKXmnDaelx)
+
+## Brain-progression asciinema:
+
+[![asciicast](https://asciinema.org/a/9CnVApDLBlveYIIL4fgJ1Vh6a.png)](https://asciinema.org/a/9CnVApDLBlveYIIL4fgJ1Vh6a)

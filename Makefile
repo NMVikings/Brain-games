@@ -19,6 +19,9 @@ brain-gcd:
 brain-balance:
 	npx babel-node -- src/bin/brain-balance.js
 
+brain-progression:
+	npx babel-node -- src/bin/brain-progression.js
+
 lint:
 	npx eslint .
 
