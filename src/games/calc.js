@@ -26,6 +26,6 @@ const getQuestionAndAnswer = () => {
   };
 };
 
-const rules = 'What is the result of the expression?';
+const description = 'What is the result of the expression?';
 
-export default () => playGame(rules, getQuestionAndAnswer);
+export default () => playGame(description, getQuestionAndAnswer);

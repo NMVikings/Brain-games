@@ -1,21 +1,21 @@
 import playGame from '../game-core';
 import getRandomNumber from '../utils';
 
-const sizeOfProgression = 10;
 
-const generateArithmeticProgression = () => {
-  const startOfProgression = getRandomNumber(0, 100);
-  const stepOfProgression = getRandomNumber(-100, 100);
-
-  const arithmeticProgression = Array(sizeOfProgression)
-    .fill(startOfProgression)
-    .map((number, i) => number + stepOfProgression * i);
-
-  return arithmeticProgression;
-};
+const generateArithmeticProgression = (start, step, length) => Array(length)
+  .fill(start)
+  .map((number, i) => number + step * i);
 
 const getQuestionAndAnswer = () => {
-  const arithmeticProgression = generateArithmeticProgression();
+  const startOfProgression = getRandomNumber(0, 100);
+  const stepOfProgression = getRandomNumber(-100, 100);
+  const sizeOfProgression = 10;
+
+  const arithmeticProgression = generateArithmeticProgression(
+    startOfProgression,
+    stepOfProgression,
+    sizeOfProgression
+  );
 
   const positionOfUndefinedNumber = getRandomNumber(0, arithmeticProgression.length);
 
@@ -31,6 +31,6 @@ const getQuestionAndAnswer = () => {
   };
 };
 
-const rules = 'What number is missing in this progression?';
+const description = 'What number is missing in this progression?';
 
-export default () => playGame(rules, getQuestionAndAnswer);
+export default () => playGame(description, getQuestionAndAnswer);

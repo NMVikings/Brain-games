@@ -12,6 +12,6 @@ const getQuestionAndAnswer = () => {
   };
 };
 
-const rules = 'Answer "yes" if number even otherwise answer "no".';
+const description = 'Answer "yes" if number even otherwise answer "no".';
 
-export default () => playGame(rules, getQuestionAndAnswer);
+export default () => playGame(description, getQuestionAndAnswer);

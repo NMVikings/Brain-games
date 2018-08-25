@@ -25,6 +25,6 @@ const getQuestionAndAnswer = () => {
   };
 };
 
-const rules = 'Find the greatest common divisor of given numbers.';
+const description = 'Find the greatest common divisor of given numbers.';
 
-export default () => playGame(rules, getQuestionAndAnswer);
+export default () => playGame(description, getQuestionAndAnswer);

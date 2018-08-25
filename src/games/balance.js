@@ -1,7 +1,7 @@
 import playGame from '../game-core';
 import getRandomNumber from '../utils';
 
-const rules = 'Balance the given number.';
+const description = 'Balance the given number.';
 
 const balanceNumber = (number) => {
   const stringNumber = String(number);
@@ -27,4 +27,4 @@ const getQuestionAndAnswer = () => {
   };
 };
 
-export default () => playGame(rules, getQuestionAndAnswer);
+export default () => playGame(description, getQuestionAndAnswer);

@@ -2,6 +2,10 @@ import playGame from '../game-core';
 import getRandomNumber from '../utils';
 
 const isPrime = (number) => {
+  if (number <= 1) {
+    return false;
+  }
+
   for (let i = 2; i <= Math.sqrt(number); i += 1) {
     if (number % i === 0) {
       return false;
@@ -21,6 +25,6 @@ const getQuestionAndAnswer = () => {
   };
 };
 
-const rules = 'Is this number prime?';
+const description = 'Is this number prime?';
 
-export default () => playGame(rules, getQuestionAndAnswer);
+export default () => playGame(description, getQuestionAndAnswer);
